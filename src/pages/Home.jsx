@@ -5,6 +5,7 @@ import Newsletter from '../components/Newsletter'
 import StoriesEvents from '../components/StoriesEvents'
 import Card from '../components/Card'
 import VisionMissionValues from '../components/VisionMissionValues'
+import Belief from '../components/Belief'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Newsletter />
         <StoriesEvents />
         <VisionMissionValues />
+        <Belief />
     </div>
   )
 }
