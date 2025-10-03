@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Newsletter from '../components/Newsletter'
 import StoriesEvents from '../components/StoriesEvents'
 import Card from '../components/Card'
+import VisionMissionValues from '../components/VisionMissionValues'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Newsletter />
         <StoriesEvents />
+        <VisionMissionValues />
     </div>
   )
 }
