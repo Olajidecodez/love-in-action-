@@ -7,6 +7,7 @@ import Card from '../components/Card'
 import VisionMissionValues from '../components/VisionMissionValues'
 import Belief from '../components/Belief'
 import PastProjects from '../components/PastProjects'
+import VolunteerNotes from '../components/VolunteerNotes'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <VisionMissionValues />
         <Belief />
         <PastProjects />
+        <VolunteerNotes />
     </div>
   )
 }
