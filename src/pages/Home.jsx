@@ -9,6 +9,7 @@ import Belief from '../components/Belief'
 import PastProjects from '../components/PastProjects'
 import VolunteerNotes from '../components/VolunteerNotes'
 import Gallery from '../components/Gallery'
+import CallToAction from '../components/CallToAction'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <PastProjects />
         <VolunteerNotes />
         <Gallery />
+        <CallToAction />
     </div>
   )
 }
