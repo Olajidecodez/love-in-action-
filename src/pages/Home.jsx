@@ -8,6 +8,7 @@ import VisionMissionValues from '../components/VisionMissionValues'
 import Belief from '../components/Belief'
 import PastProjects from '../components/PastProjects'
 import VolunteerNotes from '../components/VolunteerNotes'
+import Gallery from '../components/Gallery'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Belief />
         <PastProjects />
         <VolunteerNotes />
+        <Gallery />
     </div>
   )
 }
