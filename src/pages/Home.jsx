@@ -10,6 +10,7 @@ import PastProjects from '../components/PastProjects'
 import VolunteerNotes from '../components/VolunteerNotes'
 import Gallery from '../components/Gallery'
 import CallToAction from '../components/CallToAction'
+import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
@@ -20,9 +21,10 @@ export default function Home() {
         <StoriesEvents />
         <VisionMissionValues />
         <Belief />
+        <Testimonials />
+        <Gallery />
         <PastProjects />
         <VolunteerNotes />
-        <Gallery />
         <CallToAction />
     </div>
   )
