@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Newsletter() {
   return (
-    <section className='bg-[#FFF5C0] py-10'>
+    <section id='newsletter' className='bg-[#FFF5C0] py-10'>
         <div className='container mx-auto place-items-center'>
             <h3 className='text-2xl font-semibold mb-8'>Add LIA's Newsletter to your Inbox.</h3>
             <form action="" className='flex gap-6 items-center justify-center'>

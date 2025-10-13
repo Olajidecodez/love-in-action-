@@ -11,6 +11,7 @@ import VolunteerNotes from '../components/VolunteerNotes'
 import Gallery from '../components/Gallery'
 import CallToAction from '../components/CallToAction'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <PastProjects />
         <VolunteerNotes />
         <CallToAction />
+        <Footer />
     </div>
   )
 }
