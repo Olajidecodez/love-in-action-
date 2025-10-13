@@ -2,14 +2,13 @@ import React from 'react'
 import GalleryImage1 from "../assets/images/belief-section-img4.png"
 import GalleryImage2 from "../assets/images/belief-section-img2.png"
 import GalleryImage3 from "../assets/images/belief-section-img3.png"
+import SectionHeader from './SectionHeader'
 
 export default function Gallery() {
   return (
     <section className='py-24'>
-        <div className='container mx-auto'>
-            <div>
-                <h3 className='text-center text-[#000000] text-3xl'>GALLERY</h3>
-            </div>
+        <div className='container mx-auto text-center'>
+            <SectionHeader title={"GALLERY"}/>
 
             <div className='grid grid-cols-12 mt-24 gap-6 2xl:gap-2 place-items-center xl:mx-32 2xl:mx-60'>
                 <div className='col-span-6 h-[750px] w-[500px]'>

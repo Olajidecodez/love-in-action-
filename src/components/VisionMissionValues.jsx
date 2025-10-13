@@ -5,15 +5,14 @@ import CoreValuesIcon from "../assets/images/Core-values-icon.png"
 import Dots2 from "../assets/images/dots-2.png"
 import Ellipse3 from "../assets/images/Ellipse-3.png"
 import Arrow from "../assets/images/arrow-stack-up.png"
+import SectionHeader from './SectionHeader'
 
 export default function VisionMissionValues() {
   return (
     <section className='bg-[#FFF5C0] py-26'>
         <div className='container mx-auto text-center'>
-            <h3 className='mb-18 font-medium text-5xl text-[#1C1C1C]'>
-                Our Vision, Mission and Core Values
-            </h3>
-            <div className='relative grid grid-cols-3 gap-6'>
+            <SectionHeader title={"Our Vision, Mission and Core Values"}/>
+            <div className='relative grid grid-cols-3 gap-6 mt-18'>
                 <div className='relative flex flex-col gap-8 py-22 pt-14 bg-[#FFFFFF] place-items-center rounded-2xl shadow-lg/30 z-10'>
                     <h5 className='text-[#000000] font-medium text-2xl'>Mission</h5>
                     <img src={MissionIcon} alt="Mission Icon" className='w-60'/>

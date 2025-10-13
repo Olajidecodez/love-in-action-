@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import TestimonialImg from "../assets/images/testimonial-img.png"
 import { FaArrowLeft } from "react-icons/fa6"
 import { FaArrowRight } from "react-icons/fa6"
+import SectionHeader from './SectionHeader';
 
 export default function Testimonials() {
     const testimonials = [
@@ -27,7 +28,7 @@ export default function Testimonials() {
   return (
     <section className='py-28'>
         <div className='container mx-auto text-center'>
-            <h3 className='text-5xl font-medium text-[#1C1C1C]'>TESTIMONIALS</h3>
+            <SectionHeader title={"TESTIMONIALS"}/>
 
             <div className='flex mt-28 justify-center overflow-hidden'>
                 <div className='flex transition-transform duration-500 ease-in-out' style={{transform: `translateX(-${current * 100}%)`, width: `${testimonials.length * 100}%`}}>
