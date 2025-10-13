@@ -1,12 +1,13 @@
 import React from 'react'
 import Card from './Card'
 import CardImg from "../assets/images/card-img.png"
+import SectionHeader from './SectionHeader'
 
 export default function StoriesEvents() {
   return (
     <section className='py-28'>
         <div className='container mx-auto text-center'>
-            <h3 className='font-medium text-5xl text-[#1C1C1C]'>Latest Stories and Events</h3>
+            <SectionHeader title={"Latest Stories and Events"}/>
             <div className='grid grid-cols-3 w-full mt-20 justify-items-center gap-12'>
                 <Card 
                     image={CardImg}
