@@ -20,12 +20,12 @@ export default function PastProjects() {
         }
     ]
   return (
-    <section className='py-28'>
-        <div className='container mx-auto'>
-            <h6 className='text-lg text-[#FFB703] mb-3 font-semibold'>PAST PROJECTS</h6>
-            <h3 className='text-5xl text-[#000000] mb-20 font-semibold'>PROJECTS</h3>
+    <section className='py-28 max-sm:py-16'>
+        <div className='mx-auto max-w-[1730px] px-[clamp(1rem,5vw,6rem)]'>
+            <h6 className='max-sm:text-sm text-lg text-[#FFB703] mb-3 font-semibold'>PAST PROJECTS</h6>
+            <h3 className='max-sm:text-3xl sm:text-3xl md:tex-4xl xl:text-5xl text-[#000000] mb-20 font-semibold'>PROJECTS</h3>
 
-            <div className='grid grid-cols-2 gap-24'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-24'>
                 {projects.map((project, index) => (
                     <div key={project.id} className='flex gap-3'>
                         <div>
